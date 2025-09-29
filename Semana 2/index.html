@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Base</title>
+</head>
+
+<body>
+    <nav>
+        <ul>Home</ul>
+        <ul>Organizacion</ul>
+        <ul>Equipo de trabajo</ul>
+    </nav>
+    <header>
+        <h1>
+            Portal de la Escuela Profesional de Ingeniería de Sistemas e Informática
+        </h1>
+    </header>
+    <main>
+        <div>
+            <h2>
+                REGISTRO DE ALUMNOS
+            </h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Ejplo: aña" pattern="abcdefghijklmnopqrstuvwxyz" required>
+                <br>
+                <label for="ap-paterno">Apellido Paterno</label>
+                <input type="text" name="ap-paterno" placeholder="Ejplo: aña" required>
+                <br>
+                <label for="nap-materno">Apellido Materno</label>
+                <input type="text" name="ap-materno" placeholder="Ejplo: aña" required>
+                <br>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" placeholder="Ejplo: 20"required>
+                <br>
+                <label for="email">Emmail</label>
+                <input type="email" name="email" placeholder="Ejplo: aña1000@unamad.edu.pe"required>
+                <br>
+                <label>
+                    <input type="radio" name="genero" value="M">
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="F">
+                    Femenino
+                </label>
+                <br>
+                <input type="submit" value ="Enviar">
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
