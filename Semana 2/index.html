@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIOS</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>Home</ul>
+        <ul>Organizacion</ul>
+        <ul>Equipo de trabajo</ul>
+    </nav>
+    <header>
+        <h1>
+            Portal de la Escuela Profesional de Ingeniería de Sistemas 
+        </h1>
+    </header>
+    <main>
+        <div>
+            <h2>
+                REGISTRO DE ALUMNOS
+            </h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Ejplo: aña" pattern="abcdefghijklmnopqrstuvwxyz" required>
+                <br>
+                <label for="ap-paterno">Apellido Paterno</label>
+                <input type="text" name="ap-paterno" placeholder="Ejplo: aña" required>
+                <br>
+                <label for="nap-materno">Apellido Materno</label>
+                <input type="text" name="ap-materno" placeholder="Ejplo: aña" required>
+                <br>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" placeholder="Ejplo: 20" required>
+                <br>
+                <label for="email">Emmail</label>
+                <input type="email" name="email" placeholder="Ejplo: aña1000@unamad.edu.pe" required>
+                <br>
+                <label>
+                    <input type="radio" name="genero" value="M">
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="F">
+                    Femenino
+                </label>
+                <br>
+                <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+        <div>
+            <h2>Lista de productos</h2>
+            <table border="1" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Producto</th>
+                        <th>Descripcion</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td align="right" colspan="3">Total</td>
+                        <td>S/. 5,350.00</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        
+                        <td align="center">1</td>
+                        <td>Televisor de 42 pulgadas</td>
+                        <td>Televisor Smart de marca LG</td>
+                        <td>S/1,500.00</td>
+                    </tr>
+                    <tr>
+                        <td align="center">2</td>
+                        <td>Lavadora de 10 kg</td>
+                        <td>Lavadorar Smart de marca SAMSUNG</td>
+                        <td>S/2,500.00</td>
+                    </tr>
+                    <tr>
+                        <td align="center">3</td>
+                        <td>Cafetera</td>
+                        <td>Cafetera marca oster</td>
+                        <td>S/500.00</td>
+                    </tr>
+                    <tr>
+                        <td align="center">4</td>
+                        <td>Microondas</td>
+                        <td>Microondas marca LG</td>
+                        <td>S/. 800.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <h2>Horario Detallado</h2>
+                <table class="horario" border="1" cellspacing="0" cellpadding="5">
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>7:00-7:59</td>
+                            <td rowspan="6" align="center">Libre</td>
+                            <td rowspan="2" align="center">Libre</td>
+                            <td rowspan ="6" align="center">Libre</td>
+                            <td rowspan="2" align="center">Libre</td>
+                            <td rowspan ="6" align="center">Libre</td>
+                        </tr>
+                        <tr>
+                            <td>8:00-8:59</td>
+                        </tr>
+                        <tr>
+                            <td>9:00-9:59</td>
+                            <td rowspan="2" align="center">Sistemas Digitales</td>
+                             <td rowspan="2" align="center">Sistemas Digitales</td>
+                        </tr>
+                        <tr>
+                            <td>10:00-10:59</td>
+                        </tr>
+                        <tr>
+                            <td>11:00-11:59</td>
+                            <td rowspan="2" align="center">Autómatas</td>
+                            <td rowspan="2" align="center">Autómatas</td>
+
+                        </tr>
+                        <tr>
+                            <td>12:00-12:59</td>
+                        </tr>
+                        <tr>
+                            <td>13:00-13:59</td>
+                            <td colspan="5" align="center"> ALMUERZO</td>
+                        </tr>
+                        <tr>
+                            <td>14:00-14:59</td>
+                            <td rowspan="3" align="center">DESARROLLO DE APLICACIONES WEB</td>
+                            <td align="center">Libre</td>
+                            <td rowspan="3" align="center">INGENERIA DE SOFTWARE</td>
+                            <td align="center">Libre</td>
+                            <td rowspan="3" align="center">Libre</td>
+                        </tr>
+                        <tr>
+                            <td>15:00-15:59</td>
+                            <td rowspan="2"align="center">INGENIERIA DE SOFTWARE</td>
+                            <td rowspan="2"align="center">DESARROLLO DE APLICACIONES WEB</td>
+                        </tr>
+                        <tr>
+                            <td>16:00-16:59</td>
+                        </tr>
+                        <tr>
+                            <td>17:00-17:59</td>
+                            <td rowspan="2" align="center">Libre</td>
+                            <td rowspan="2" align="center">Libre</td>
+                            <td rowspan="4" align="center">Libre</td>
+                            <td rowspan="2" align="center">GESTION FINANCIERA</td>
+                            <td rowspan="2" align="center">FUNDAMENTO DE REDES</td>
+                        </tr>
+                        <tr>
+                            <td>18:00-18:59</td>
+                        </tr>
+                        <tr>
+                            <td>19:00-19:59</td>
+                            <td rowspan="2" align="center">FUNDAMENTO DE REDES</td>
+                            <td rowspan="2" align="center">GESTION FINANCIERA</td>
+                            <td rowspan="2" align="center">Libre</td>
+                            <td rowspan="2" align="center">Libre</td>
+                        </tr>
+                        <tr>
+                            <td>20:00-20:59</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
