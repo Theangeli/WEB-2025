@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 30px;
+}
+
+.titulo1{
+    text-align: center;
+    text-shadow: 10px 10px blanchedalmond;
+}
+.titulo2{
+    text-align: center;
+    text-shadow: 10px 10px 10px red;
+}
+.titulo3{
+    text-align: center;
+    text-shadow: 10px 10px 10px red,
+    0px 10px;
+}
+.titulo4{
+    text-align: center;
+    text-shadow: 10px 10px 10px red,
+    0px 10px blue;
+}
+.titulo5{
+    text-align: center;
+    text-shadow: 10px 10px 10px red,
+    0px 10px blue,
+    -168px 0px;
+}
