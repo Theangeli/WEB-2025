@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-inicio{
+font-size: 40px;
+display: flex;
+width: 100%;
+justify-content: flex-start;
+}
+
+.flex-inicio div{
+    background-color: aquamarine;
+
+
+}
+
+.flex-inicio div:first-child{
+    background-color: yellow;
+}
+
+.flex-inicio div:last-child{
+    background-color: yellow;
+}
+
+.flex-final{
+font-size: 40px;
+display: flex;
+width: 100%;
+justify-content: flex-end;
+}
+.flex-final div{
+    background-color: aquamarine;
+
+}
+
+.flex-final div:first-child{
+    background-color: yellow;
+}
+
+.flex-final div:last-child{
+    background-color: yellow;
+}
+
+.flex-central{
+font-size: 40px;
+display: flex;
+width: 100%;
+justify-content: center;
+}
+.flex-central div{
+    background-color: aquamarine;
+
+}
+
+.flex-central div:first-child{
+    background-color: yellow;
+}
+
+.flex-central div:last-child{
+    background-color: yellow;
+}
+
+.flex-between{
+font-size: 40px;
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+.flex-between div{
+    background-color: aquamarine;
+
+}
+
+.flex-between div:first-child{
+    background-color: yellow;
+}
+
+.flex-between div:last-child{
+    background-color: yellow;
+}
+.flex-araund{
+font-size: 40px;
+display: flex;
+width: 100%;
+justify-content: space-around;
+}
+.flex-araund div{
+    background-color: aquamarine;
+
+}
+
+.flex-araund div:first-child{
+    background-color: yellow;
+}
+
+.flex-araund div:last-child{
+    background-color: yellow;
+}
+.flex-evenly{
+font-size: 40px;
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+}
+.flex-evenly div{
+    background-color: aquamarine;
+
+}
+
+.flex-evenly div:first-child{
+    background-color: yellow;
+}
+
+.flex-evenly div:last-child{
+    background-color: yellow;
+}

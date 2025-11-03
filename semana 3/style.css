@@ -88,4 +88,19 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .malla td.que{
     text-align: left;
+
 }
+
+p::first-line{
+    color: blue;
+    text-decoration:wavy underline;
+}
+
+p::first-letter{
+    color: red;
+}
+
+ul>li{
+    border-top: 1px solid red;
+}
+
