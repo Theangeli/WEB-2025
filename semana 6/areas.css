@@ -8,7 +8,7 @@
     background: lightgray;
     min-height: 200px;
     display: grid;
-    text-align: center;
+    text-align: center ;
     grid-template-areas:
         "encabezado encabezado"
         "menu noti"
