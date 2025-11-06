@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.titulo{
+/* .titulo{
     animation-duration: 2s;
     animation-name: tituloanimacion;
     padding: 10px;
@@ -19,4 +19,31 @@
         font-size: 50px;
 
     }
+} */
+ div{
+    width: 100px;
+    height: 200px;
+    background: goldenrod;
+    margin :10px;
+color: black;
+text-align: center;
+line-height: 100px;
+transition: all 5s ease;
+ 
+ &.translate{
+    &:hover{
+        transform: translate(100px,100px);
+    }
+ }
+&.transalatex{
+    &:hover{
+        transform: translateX(300px);
+    }
+}
+&.translatey{
+    &:hover{
+        transform: translateY(300px);
+    }
+}
+
 }
