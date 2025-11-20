@@ -28,3 +28,12 @@ console.log("precio por 3 unidades: ", preciofinal);
 let numero = 10;
 console.log(numero++);
 console.log(++numero);
+
+//cambio de tipo de datos
+let dato1="20";
+let dato2="10";
+let suma = parseInt(dato1) + parseInt(dato2);
+console.log("la suma de los datos es: ", suma);
+
+let anio ="2025";
+console.log("el año es: ", anio.toString(anio));
