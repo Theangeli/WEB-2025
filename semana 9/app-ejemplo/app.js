@@ -13,3 +13,6 @@ console.log(typeof(nota));
 
 console.log(numero);
 console.log(typeof(numero));
+
+var nombre1 = "EMILIO";
+var nombre1 = "JUAN";
